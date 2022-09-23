@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/app.css">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Shopping List!</h1>
+
+    <form class="searchForm" action="index.html" method="post">
+      <label>Search for Item <input type="text" name="q" value=""></label>
+      <button type="submit" name="button">Go!</button>
+    </form>
+
+
+<div id="itemDiv">
+  <h2>Items on your list:</h2>
+  <ul id="items_list">
+
+  </ul>
+</div>
+
+
+<form class="addItemForm" action="index.html" method="post">
+  <h2>Add Item</h2>
+<label>Item Name <input type="text" name="item_name" placeholder="dragon egg"></label>
+<br>
+<label>Price Per Item <input type="text" name="item_price" placeholder="15.99"></label>
+<br>
+<label>Quantity <input type="text" name="item_qty" placeholder="1"></label>
+<br>
+<button type="submit" name="button">Add Item</button>
+</form>
+
+<form class="editItemForm hiddenObj" action="index.html" method="post">
+<input type="hidden" name="original_name">
+  <h2>Edit Item</h2>
+<label>Item Name <input type="text" name="item_name" placeholder="dragon egg"></label>
+<br>
+<label>Price Per Item <input type="text" name="item_price" placeholder="15.99"></label>
+<br>
+<label>Quantity <input type="text" name="item_qty" placeholder="1"></label>
+<br>
+<button type="submit" name="button">Edit Item</button>
+</form>
+
+<button type="button" id="mathBtn" >Total Price</button>
+
+
+<div class="extraStuff">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+  </body>
+</html>

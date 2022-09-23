@@ -1,0 +1,125 @@
+.hiddenObj{
+  visibility: hidden;
+}
+body{
+  height: 900px;
+  width: 100%;
+  background: linear-gradient(#98C2C5,#54C58B,#425B5F);
+  cursor: default;
+}
+
+button{
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+}
+label{
+  padding: 3px;
+}
+input{
+  padding: 3px;
+}
+
+form{
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  width: 400px;
+  padding: 2px;
+  border-color: #A14D7B;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #CA94CE;
+}
+
+.searchForm{
+  position: fixed;
+  left: 40%;
+  top: 8%;
+  width: 300px;
+  padding: 2px;
+  z-index: 1
+}
+
+#itemDiv{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+width: 300px;
+border-color: #B4A147;
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
+background-color: #E5E4A8;
+
+}
+#itemDiv h2{
+  text-align: center;
+}
+
+
+button{
+  background-color: #A2CB92;
+}
+
+button:hover{
+  background-color: #91B191;
+}
+
+
+#mathBtn{
+  position: absolute;
+  left: 60%;
+  top: 45%;
+  font-size: 2em;
+  background-color: #E9D97C;
+}
+#mathBtn:hover{
+  background-color: #C8A33F;
+}
+
+.editItem{
+  background-color: #E2B07B;
+}
+.editItem:hover{
+    background-color: #C89156;
+}
+
+.deleteItem{
+  background-color: #E28182;
+}
+.deleteItem:hover{
+    background-color:  #C5484B;
+}
+
+
+.item,.totalPrice{
+  padding: 10px;
+  border-color: #A14D7B;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #CA94CE;
+}
+
+.extraStuff{
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  left: 60%;
+  top: 55%;
+}
+
+
+.error{
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #C5484B;
+}
